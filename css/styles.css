@@ -58,13 +58,10 @@ li {
 	font-weight: 600;
 }
 
-.top-image {
-	padding-bottom: 8px;
-}
-
-.top-image img {
+img {
 	width: 100%;
 	border-radius: 12px;
+	margin-bottom: 40px;
 }
 
 .title h1 {

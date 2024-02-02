@@ -1,0 +1,39 @@
+@media (max-width: 375px) {
+    body {
+        background-color: #fff;
+        padding: 0;
+    }
+    
+    header {
+        border-radius: 0;
+    }
+    
+    main {
+        padding: 0;
+    }
+            
+    img {
+        border-radius: 0;
+        margin-bottom: 8px;
+    }
+    
+    .title h1 {
+        font-size: 36px;
+        font-weight: 400;
+    }
+    
+    section {
+        padding: 0 32px 0 32px;
+    }
+
+    .nutrition div div a {
+        width: 115.5px;
+        padding-right: 0;
+    }
+    
+    .nutrition div div div {
+        font-weight: 600;
+        width: 115.5px;
+        padding-right: 0;
+    }
+}
