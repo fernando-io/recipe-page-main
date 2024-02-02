@@ -12,7 +12,6 @@ main {
 	display: flex;
 	flex-direction: column;
 	padding: 40px;
-	gap: 32px
 }
 
 main a {
@@ -21,8 +20,42 @@ main a {
 	color: hsl(30, 10%, 34%)
 }
 
-main hr {
+section hr {
 	color: #E3DDD7;
+	margin-block-start: 32px;
+}
+
+h2 {
+	font-family: 'Young Serif';
+	font-size: 28px;
+	font-weight: 400;
+	color: #854632;
+}
+
+ul div {
+	display: flex;
+	flex-direction: row;
+	gap: 16px;
+	margin-bottom: 8px;
+}
+
+ol div {
+	display: flex;
+	flex-direction: row;
+	gap: 16px;
+	margin-bottom: 8px;
+}
+
+p {
+	margin-bottom: 24px;
+	font-family: 'Outfit';
+	font-size: 16px;
+	color: hsl(30, 10%, 34%)
+}
+
+li {
+	color: #854632;
+	font-weight: 600;
 }
 
 .top-image {
@@ -41,37 +74,40 @@ main hr {
 
 .preparation {
 	background-color: hsl(330, 100%, 98%);
+	border-radius: 12px;
 }
 
 .preparation h3 {
 	padding-left: 20px;
 	font-family: 'Outfit';
+	font-weight: 600;
 	color: hsl(332, 51%, 32%);
-}
-
-.preparation ul div {
-	display: flex;
-	flex-direction: row;
-	gap: 16px;
-	margin-bottom: 8px;
 }
 
 .preparation li {
 	color: hsl(332, 51%, 32%);
+	font-weight: 600;
 }
 
-.ingredients h2 {
-	font-family: 'Young Serif';
-	font-size: 28px;
-	color: hsl(332, 51%, 32%);
-}
-
-.ingredients ul div {
+.nutrition div div {
 	display: flex;
-	flex-direction: row;
-	gap: 16px;
+	font-family: 'Outfit';
+	color: hsl(332, 51%, 32%);
+	padding: 0 32px;
 }
 
-.ingredients li {
-	color: hsl(332, 51%, 32%);
+.nutrition div div a {
+	width: 288px;
+	padding-right: 76px;
+}
+
+.nutrition div div div {
+	font-weight: 600;
+	width: 288px;
+	padding-right: 76px;
+}
+
+.nutrition .table hr {
+	color: #E3DDD7;
+	margin-block-start: 12px;
 }
