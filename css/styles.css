@@ -1,0 +1,77 @@
+body {
+	background-color: hsl(30, 54%, 90%);
+	padding: 123px 352px 123px 352px;
+}
+
+header {
+	background-color: #fff;
+	border-radius: 24px;
+}
+
+main {
+	display: flex;
+	flex-direction: column;
+	padding: 40px;
+	gap: 32px
+}
+
+main a {
+	font-family: 'Outfit';
+	font-size: 16px;
+	color: hsl(30, 10%, 34%)
+}
+
+main hr {
+	color: #E3DDD7;
+}
+
+.top-image {
+	padding-bottom: 8px;
+}
+
+.top-image img {
+	width: 100%;
+	border-radius: 12px;
+}
+
+.title h1 {
+	font-family: 'Young Serif';
+	font-size: 40px;
+}
+
+.preparation {
+	background-color: hsl(330, 100%, 98%);
+}
+
+.preparation h3 {
+	padding-left: 20px;
+	font-family: 'Outfit';
+	color: hsl(332, 51%, 32%);
+}
+
+.preparation ul div {
+	display: flex;
+	flex-direction: row;
+	gap: 16px;
+	margin-bottom: 8px;
+}
+
+.preparation li {
+	color: hsl(332, 51%, 32%);
+}
+
+.ingredients h2 {
+	font-family: 'Young Serif';
+	font-size: 28px;
+	color: hsl(332, 51%, 32%);
+}
+
+.ingredients ul div {
+	display: flex;
+	flex-direction: row;
+	gap: 16px;
+}
+
+.ingredients li {
+	color: hsl(332, 51%, 32%);
+}
