@@ -3,70 +3,60 @@ body {
 	padding: 123px 352px 123px 352px;
 }
 
-header {
+main {
 	background-color: #fff;
 	border-radius: 24px;
-}
-
-main {
 	display: flex;
 	flex-direction: column;
 	padding: 40px;
 }
 
-main a {
+a {
 	font-family: 'Outfit';
+	font-weight: 400;
 	font-size: 16px;
 	color: hsl(30, 10%, 34%)
 }
 
-section hr {
+hr {
 	color: #E3DDD7;
 	margin-block-start: 32px;
 }
 
-h2 {
-	font-family: 'Young Serif';
-	font-size: 28px;
-	font-weight: 400;
-	color: #854632;
-}
-
-ul div {
+ul {
 	display: flex;
-	flex-direction: row;
-	gap: 16px;
-	margin-bottom: 8px;
+	flex-direction: column;
+	gap: 8px;
 }
 
-ol div {
+ol {
 	display: flex;
-	flex-direction: row;
-	gap: 16px;
-	margin-bottom: 8px;
-}
-
-p {
-	margin-bottom: 24px;
-	font-family: 'Outfit';
-	font-size: 16px;
-	color: hsl(30, 10%, 34%)
+	flex-direction: column;
+	gap: 8px;
 }
 
 li {
 	color: #854632;
 	font-weight: 600;
+	padding-left: 16px;
 }
 
 img {
 	width: 100%;
 	border-radius: 12px;
-	margin-bottom: 40px;
 }
 
 .title h1 {
 	font-family: 'Young Serif';
 	font-size: 40px;
+	color: hsl(24, 5%, 18%);
+}
+
+.title p {
+	font-family: 'Outfit';
+	font-weight: 400;
+	font-size: 16px;
+	color: hsl(30, 10%, 34%)
 }
 
 .preparation {
@@ -74,8 +64,9 @@ img {
 	border-radius: 12px;
 }
 
-.preparation h3 {
+.preparation p {
 	padding-left: 20px;
+	font-size: 20px;
 	font-family: 'Outfit';
 	font-weight: 600;
 	color: hsl(332, 51%, 32%);
@@ -84,6 +75,34 @@ img {
 .preparation li {
 	color: hsl(332, 51%, 32%);
 	font-weight: 600;
+}
+
+.ingredients p {
+	font-family: 'Young Serif';
+	font-size: 28px;
+	font-weight: 400;
+	color: #854632;
+}
+
+.instructions p {
+	font-family: 'Young Serif';
+	font-size: 28px;
+	font-weight: 400;
+	color: #854632;
+}
+
+.nutrition h2 {
+	font-family: 'Young Serif';
+	font-size: 28px;
+	font-weight: 400;
+	color: #854632;
+}
+
+.nutrition p {
+	font-family: 'Outfit';
+	font-weight: 400;
+	font-size: 16px;
+	color: hsl(30, 10%, 34%)
 }
 
 .nutrition div div {

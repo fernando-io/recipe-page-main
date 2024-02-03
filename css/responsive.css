@@ -4,17 +4,13 @@
         padding: 0;
     }
     
-    header {
-        border-radius: 0;
-    }
-    
     main {
+        border-radius: 0;
         padding: 0;
     }
             
     img {
         border-radius: 0;
-        margin-bottom: 8px;
     }
     
     .title h1 {
