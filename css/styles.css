@@ -23,16 +23,20 @@ hr {
 	margin-block-start: 32px;
 }
 
-ul {
+.ingredients ul {
 	display: flex;
 	flex-direction: column;
 	gap: 8px;
+	margin-left: 10px;
+	padding-left: 8px;
 }
 
 ol {
 	display: flex;
 	flex-direction: column;
 	gap: 8px;
+	margin-left: 10px;
+	padding-left: 8px;
 }
 
 li {
