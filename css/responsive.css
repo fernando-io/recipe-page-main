@@ -32,4 +32,13 @@
         width: 115.5px;
         padding-right: 0;
     }
+
+    .preparation {
+        margin: 0 32px;
+        padding: 0 24px;
+    }
+
+    .preparation li {
+        padding-bottom: 8px;
+    }
 }
