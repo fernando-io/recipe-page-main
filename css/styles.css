@@ -1,6 +1,7 @@
 body {
 	background-color: hsl(30, 54%, 90%);
 	padding: 123px 352px 123px 352px;
+	margin: 0;
 }
 
 main {
